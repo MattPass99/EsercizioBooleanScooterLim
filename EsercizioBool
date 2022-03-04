@@ -1,0 +1,88 @@
+
+body {
+background-image: url(background.jpg);
+}
+
+.container{
+  width: 1000px;
+  height: 800px;
+  background: rgba(0, 0, 0, 0.6);
+  margin: auto;
+  border-radius: 10px;
+}
+.img-lim img {
+  width: 200px;
+  height: 90px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-logo h3 {
+  font-size: 30px;
+  text-align: center;
+  color: #66FF00;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.row{
+width: 950px;
+height: 50px;
+margin: auto;
+background: #00BB2D;
+position: relative;
+
+}
+.row-button {
+  margin: 0;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ -ms-transform: translate(-50%, -50%);
+ transform: translate(-50%, -50%);
+}
+
+
+p {
+  color: #FFFFFF;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.checkbox{
+  margin: auto;
+  padding: 25px;
+}
+
+span {
+  font-size: 20px;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+
+.row2{
+  width: 300px;
+  height: 30px;
+  background: #FFA500;
+  border-radius: 5px;
+}
+
+.row3{
+  width: 500px;
+  height: 30px;
+  background: #00BB2D;
+  border-radius: 5px;
+}
+
+.checkbox, .checkbox2 ,.checkbox3 {
+  margin: auto;
+  padding: 25px;
+
+}
+
+.row4{
+  width: 150px;
+  height: 30px;
+  background: #CB3234;
+  border-radius: 5px;
+}
